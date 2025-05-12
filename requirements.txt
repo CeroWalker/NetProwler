@@ -1,0 +1,5 @@
+python-nmap
+netifaces
+paramiko
+requests
+pysmb
