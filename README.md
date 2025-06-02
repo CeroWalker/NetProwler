@@ -1,7 +1,7 @@
 # NetProwler
 
 Kapadokya Üniversitesi Bilişim Güvenliği Teknolojisi Bitirme Projesi  
-Geliştiriciler: [CeroWalker](https://github.com/CeroWalker), Kalyke0
+Geliştiriciler: [CeroWalker](https://github.com/CeroWalker), [Kalyke1](https://github.com/Kalyke1)
 
 ## Proje Hakkında
 
