@@ -1,7 +1,7 @@
 # NetProwler
 
 Kapadokya Üniversitesi Bilişim Güvenliği Teknolojisi Bitirme Projesi  
-Geliştiriciler: [CeroWalker](https://github.com/CeroWalker), [Kalyke1](https://github.com/Kalyke1)
+Geliştiriciler: [CeroWalker](https://github.com/CeroWalker), Kalyke0
 
 ## Proje Hakkında
 
@@ -42,7 +42,7 @@ Geliştiriciler: [CeroWalker](https://github.com/CeroWalker), [Kalyke1](https://
 
 1. Tarayıcıdan web arayüzünü açın.
 2. Ağ arayüzünü seçin ve "Taramayı Başlat" butonuna tıklayın.
-3. Tarama tamamlandığında sonuçları ekranda görüntüleyebilir, isterseniz JSON olarak indirebilirsiniz.
+3. Tarama tamamlandığında sonuçları ekranda görüntüleyebilir, isterseniz JSON veya DOCX olarak indirebilirsiniz.
 
 ## Dizin Yapısı
 
@@ -62,9 +62,32 @@ Bu proje sadece eğitim amaçlıdır. Ticari kullanım veya yetkisiz ağlarda ku
 ## Etik ve Yasal Uyarı
 
 > **Uyarı:** NetProwler, yalnızca eğitim, araştırma ve yasal izin alınmış test ortamlarında kullanılmak üzere geliştirilmiştir. Gerçek ağlarda veya izinsiz sistemlerde kullanımı yasa dışı olabilir ve etik değildir.  
-
+> 
 > Bu aracı kullanmadan önce mutlaka sistem sahibi veya yöneticisinden izin alınız. Yasal olmayan kullanımlardan doğabilecek tüm sorumluluk kullanıcıya aittir. Geliştiriciler hiçbir şekilde kötüye kullanımdan sorumlu tutulamaz.
 
 ---
 
 Herhangi bir öneri veya hata bildirimi için [GitHub Issues](https://github.com/CeroWalker/NetProwler/issues) üzerinden iletişime geçebilirsiniz.
+
+## Kaynakça ve Kullanılan Teknolojiler
+
+- **Python**  
+  [https://www.python.org/](https://www.python.org/)
+- **Flask** (web framework)  
+  [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
+- **netifaces** (ağ arayüzü yönetimi için)  
+  [https://pypi.org/project/netifaces/](https://pypi.org/project/netifaces/)
+- **Nmap** (ağ taraması için)  
+  [https://nmap.org/](https://nmap.org/)
+  [https://pypi.org/project/python-nmap/](https://pypi.org/project/python-nmap/)
+- **ftplib** (Python standart kütüphanesinde FTP işlemleri için)  
+  [https://docs.python.org/3/library/ftplib.html](https://docs.python.org/3/library/ftplib.html)
+- **paramiko** (SSH işlemleri için)  
+  [https://www.paramiko.org/](https://www.paramiko.org/)
+  [https://pypi.org/project/paramiko/](https://pypi.org/project/paramiko/)
+- **SMBConnection** (SMB için)  
+  [https://pysmb.readthedocs.io/en/latest/api/smb_SMBConnection.html](https://pysmb.readthedocs.io/en/latest/api/smb_SMBConnection.html)
+- **requests** (HTTP istekleri için)  
+  [https://docs.python-requests.org/en/latest/](https://docs.python-requests.org/en/latest/)
+
+Ek olarak, projenin geliştirilmesinde çeşitli açık kaynak kütüphaneler ve resmi dokümantasyonlardan yararlanılmıştır.
